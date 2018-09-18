@@ -4,6 +4,14 @@ body {
 
 .downloads {
   display: inline-block;
-  color: white;
-  text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: red;
 }
