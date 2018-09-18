@@ -4,4 +4,6 @@ body {
 
 .downloads {
   display: inline-block;
+  color: white;
+  text-decoration: none;
 }
