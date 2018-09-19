@@ -1,20 +1,38 @@
 body {
-  background: black;
+  background-color: black;
+}
+
+.screenshot {
+  /*margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 16.75vh;
+  display: block;*/
+  width: auto;
+  height: 80vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instructions {
+  color: white;
 }
 
 .downloads {
-  display: inline-block;
+  display: block;
+  margin: auto;
+  width: auto;
 }
 
 .title {
   margin-top: 17%;
-  margin-bottom: 40%;
+  /*margin-bottom: 40%;*/
   color: white;
 }
 
 a:link, a:visited {
   color: white;
-  text-align: center; 
+  text-align: center;
   text-decoration: none;
 }
 
@@ -24,10 +42,17 @@ a:hover, a:active {
 
 .height {
   height: 100vh;
+  overflow: auto;
+}
+
+.height2 {
+  margin-top: 5vh;
+  height: 95vh;
+  overflow: auto;
 }
 
 .wordwrapper {
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 
 h0 {
@@ -35,7 +60,7 @@ h0 {
 }
 
 .bounce {
-  top: 79vh;
+  top: 95vh;
   color: white;
   position: absolute;
   -moz-animation: bounce 2s infinite;
