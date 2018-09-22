@@ -2,13 +2,24 @@ body {
   background-color: black;
 }
 
+#winlogo {
+  width: 5%;
+  height: 5%;
+}
+
+#maclogo {
+  width: 4%;
+  height: 4%;
+  margin-bottom: 0.5%;
+}
+
 .screenshot {
   /*margin-top: 0px;
   padding-top: 0px;
   margin-left: 16.75vh;
   display: block;*/
-  width: 95vh;
-  height: 80vh;
+  width: 55%;
+  height: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
